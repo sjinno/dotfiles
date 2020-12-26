@@ -1,0 +1,35 @@
+XTerm.termName: xterm-256color
+#include "/home/shohei/clones/Xresources-themes/base16-github-256.Xresources"
+
+XTerm*faceName: Droid Sans Mono
+! XTerm.vt100.faceName: Liberation Mono:size=10:antialias=false
+XTerm*faceSize: 10
+XTerm*background: #f4f1de
+! xterm*foreground: grey
+
+! xterm*VT100.Translations: #override \
+!    Ctrl <Key> minus: smaller-vt-font() \n\
+!    Ctrl <Key> plus: larger-vt-font() \n\
+!    Ctrl <Key> 0: set-vt-font(d)
+
+XTerm*VT100.Translations: #override \
+    Shift <KeyPress> Insert: insert-selection(CLIPBOARD) \n\
+    Ctrl Shift <Key>V:    insert-selection(CLIPBOARD) \n\
+    Ctrl Shift <Key>C:    copy-selection(CLIPBOARD) \n\
+    Ctrl <Btn1Up>: exec-formatted("xdg-open '%t'", PRIMARY)
+
+! Only select text
+XTerm*highlightSelection: true
+! Remove trailing spaces
+XTerm*trimSelection: true
+
+! Lines of output that you can scroll back over
+XTerm*saveLines: 4096
+! Turn the scrollbar on, and put it on the right
+XTerm*scrollBar: true
+XTerm*rightScrollBar: true
+
+! Do not scroll when there is new input e.g. tail -f /var/syslog
+XTerm*scrollTtyOutput: false
+
+XTerm*toolBar: true
