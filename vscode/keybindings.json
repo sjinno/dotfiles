@@ -1,0 +1,27 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+alt+p",
+    "command": "editor.action.addSelectionToPreviousFindMatch"
+  },
+  {
+    "key": "alt+u",
+    "command": "editor.action.transformToUppercase",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+x ctrl+u",
+    "command": "-editor.action.transformToUppercase",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+l",
+    "command": "editor.action.transformToLowercase",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+x ctrl+l",
+    "command": "-editor.action.transformToLowercase",
+    "when": "editorTextFocus && !editorReadonly"
+  }
+]
