@@ -137,24 +137,45 @@
     ]
   },
   "editor.renderWhitespace": "all",
-  "editor.codeActionsOnSave": null,
+  // "editor.codeActionsOnSave": null,
   "workbench.colorCustomizations": {
-    "statusBar.background": "#3d59ab",
-    "statusBar.noFolderBackground": "#3d59ab",
-    "statusBar.debuggingBackground": "#4b4b4b",
+    // "statusBar.background": "#3d59ab",
+    // "statusBar.noFolderBackground": "#3d59ab",
+    "statusBar.background": "#33312e",
+    // "statusBar.noFolderBackground": "#4058f7",
+    "statusBar.debuggingBackground": "#33312e",
     "statusBar.foreground": "#ffffff",
-    "editorWhitespace.foreground": "#b5838d",
+    // "editorWhitespace.foreground": "#b5838d",
+    "editorWhitespace.foreground": "#a3b18a", // Laurel green
+    // "editorWhitespace.foreground": "#588157", // Fern green
+    // "editorWhitespace.foreground": "#aa4465", // Irresistible red
     // "editorWhitespace.foreground": "#6d6875" //CITY LIGHTS
     // "editor.background": "#f0efeb", // GITHUB PLUS
-    "editor.background": "#f4f1de", // GITHUB PLUS
-    // "editor.background": "#212529"
-    // "editor.background": "#252422",
+    // "editor.background": "#f4f1de", // GITHUB PLUS
+    "editor.background": "#f3f0df", // GITHUB PLUS
+    // "editor.background": "#f4faff", // VIRDIGRIS LIGHT alice blue
+    "sideBar.background": "#f0f0f0", // SIDE BAR
+    "activityBar.background": "#f6f8fa", // ACTIVITY BARD
+    "activityBar.foreground": "#1b1f23",
+    "editorGroupHeader.tabsBackground": "#f0f0f0", // TABS BACKGROUND
+    "tab.inactiveBackground": "#f0f0f0",
+    "tab.activeBackground": "#fafbfc",
+    "scrollbarSlider.background": "#1b1f23",
   },
   "window.zoomLevel": 0,
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "file-icons",
   "editor.fontSize": 12,
   "workbench.colorTheme": "GitHub Plus",
   "editor.fontFamily": "'Liberation Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "debug.allowBreakpointsEverywhere": true,
+  "C_Cpp.updateChannel": "Insiders",
+  "rust-analyzer.inlayHints.maxLength": 6,
+  "rust-analyzer.inlayHints.enable": false,
+  "workbench.activityBar.visible": true,
+  "editor.scrollbar.horizontalScrollbarSize": 0,
+  "editor.scrollbar.verticalScrollbarSize": 1,
+  "window.title": "${dirty}${activeEditorShort}",
+  "latex-workshop.latex.autoBuild.run": "never"
 }

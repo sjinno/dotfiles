@@ -5,12 +5,6 @@ XTerm*faceName: Droid Sans Mono
 ! XTerm.vt100.faceName: Liberation Mono:size=10:antialias=false
 XTerm*faceSize: 10
 XTerm*background: #f4f1de
-! xterm*foreground: grey
-
-! xterm*VT100.Translations: #override \
-!    Ctrl <Key> minus: smaller-vt-font() \n\
-!    Ctrl <Key> plus: larger-vt-font() \n\
-!    Ctrl <Key> 0: set-vt-font(d)
 
 XTerm*VT100.Translations: #override \
     Shift <KeyPress> Insert: insert-selection(CLIPBOARD) \n\
