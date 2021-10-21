@@ -1,0 +1,237 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "window.menuBarVisibility": "toggle",
+  "editor.minimap.enabled": false,
+  "hediet.vscode-drawio.theme": "dark",
+  "files.associations": {
+    "*.drawio": "javascript",
+    "*.js": "javascript",
+    "*.css": "scss"
+  },
+  "hediet.vscode-drawio.local-storage": {
+    ".drawio-config": {
+      "language": "",
+      "customFonts": [],
+      "libraries": "general;uml;er;bpmn;flowchart;basic;arrows2",
+      "customLibraries": ["L.scratchpad"],
+      "plugins": [],
+      "recentColors": [],
+      "formatWidth": "240",
+      "createTarget": false,
+      "pageFormat": {
+        "x": 0,
+        "y": 0,
+        "width": 850,
+        "height": 1100
+      },
+      "search": true,
+      "showStartScreen": true,
+      "gridColor": "#d0d0d0",
+      "darkGridColor": "#6e6e6e",
+      "autosave": true,
+      "resizeImages": null,
+      "openCounter": 0,
+      "version": 18,
+      "unit": 1,
+      "isRulerOn": false,
+      "ui": ""
+    }
+  },
+  "launch": {
+
+  },
+  // "editor.fontLigatures": true,
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.fontFamily": "Droid Sans Mono",
+  "diffEditor.ignoreTrimWhitespace": false,
+  // "editor.letterSpacing": 0,
+  "editor.lineHeight": 18,
+  // "editor.codeActionsOnSave": null,
+  "editor.fontLigatures": "'ss01",
+  "http.proxyAuthorization": null,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [{
+        "name": "comment",
+        "scope": ["comment"],
+        "settings": {
+          // "fontStyle": "italic"
+          // "foreground": "#768948"
+        }
+      },
+      {
+        "name": "Keyword Storage",
+        "scope": [
+          // "keyword",
+          // "storage",
+          // "keyword.control",
+          "storage.type.function.rust",
+          "storage.type.function.python",
+          "storage.type.function.js"
+          // "storage.type.function.rust"
+        ],
+        "settings": {
+          // "fontStyle": "italic"
+          // "foreground": "#f95738"
+        }
+      },
+      // {
+      //   "name": "[PYTHON] - Fuction",
+      //   "scope": "storage.type.function.python",
+      //   "settings": {
+      //       "foreground": "#f95738"
+      //   }
+      //  },
+      {
+        "name": "Entity",
+        "scope": [
+          // "entity.name.type.class", //class names
+          // "entity.other.attribute-name",
+          // "entity.name.method",
+          // "entity.name.tag"
+        ],
+        "settings": {
+          // "fontStyle": "italic"
+          // "foreground": "#f95738" //CITY LIGHTS
+        }
+      },
+      // {
+      //   "name": "Variable",
+      //   "scope": [
+      //     "variable.language",
+      //     "meta.paragraph.markdown",
+      //     "support.type.property-name.json",
+      //     "string.other.link.title.markdown"
+      //   ],
+      //   "settings": {
+      //     "fontStyle": "italic"
+      //   }
+      // },
+      {
+        "name": "Markdown",
+        "scope": [
+          "meta.paragraph.markdown",
+          "string.other.link.title.markdown",
+          "markup.underline.link.markdown"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      // {
+      //   "name": "Json",
+      //   "scope": ["support.type.property-name.json"],
+      //   "settings": {
+      //     "fontStyle": "italic"
+      //   }
+      // }
+    ]
+  },
+  "editor.renderWhitespace": "all",
+  // "editor.codeActionsOnSave": null,
+  "workbench.colorCustomizations": {
+    "statusBar.foreground": "#ffffff",
+    "statusBar.background": "#33312e",
+    // "statusBar.noFolderBackground": "#4058f7",
+    "statusBar.debuggingBackground": "#33312e",
+    "editorWhitespace.foreground": "#a3b18a", // Laurel green
+    "editor.background": "#f3f0df", // GITHUB PLUS *****
+    // "editor.background": "#fff", // GITHUB PLUS
+    // "editor.background": "#f4faff", // VIRDIGRIS LIGHT alice blue
+    "sideBar.background": "#f0f0f0", // SIDE BAR
+    "activityBar.background": "#f6f8fa", // ACTIVITY BARD
+    "activityBar.foreground": "#1b1f23",
+    "editorGroupHeader.tabsBackground": "#f0f0f0", // TABS BACKGROUND
+    "tab.inactiveBackground": "#f0f0f0",
+    "tab.activeBackground": "#fafbfc",
+    "scrollbarSlider.background": "#a3aab1",
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.fontSize": 12,
+  "editor.fontFamily": "'Liberation Mono'",
+  "debug.allowBreakpointsEverywhere": true,
+  "C_Cpp.updateChannel": "Insiders",
+  "rust-analyzer.inlayHints.maxLength": 6,
+  "rust-analyzer.inlayHints.enable": false,
+  "workbench.activityBar.visible": true,
+  "editor.scrollbar.horizontalScrollbarSize": 0,
+  "editor.scrollbar.verticalScrollbarSize": 6,
+  "window.title": "${dirty}${activeEditorShort}",
+  "latex-workshop.latex.autoBuild.run": "never",
+  "git.autofetch": true,
+  "kite.showWelcomeNotificationOnStartup": false,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "workbench.colorTheme": "GitHub Plus",
+  // "prettier.singleQuote": true,
+  "html.format.templating": true,
+  "markdown.extension.toc.unorderedList.marker": "- [ ]",
+  // "prettier.tabWidth": 4,
+  "[python]": {
+    "gitlens.codeLens.symbolScopes": [
+      "!Module"
+    ],
+    "editor.wordBasedSuggestions": false
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "editor.letterSpacing": 0.01,
+  "liveSassCompile.settings.formats": [
+    // // This is Default.
+    // {
+    //     "format": "expanded",
+    //     "extensionName": ".css",
+    //     "savePath": null
+    // },
+    // // You can add more
+    // {
+    //     "format": "compressed",
+    //     "extensionName": ".min.css",
+    //     "savePath": "/dist/css"
+    // },
+    // More Complex
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/css"
+    }
+  ],
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "prettier.configPath": ".prettierrc",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "rust-client.channel": "stable",
+  "[json]": {},
+  "[rust]": {
+    // "editor.formatOnSave": false
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "prettier.tabWidth": 4,
+  "helium-icon-theme.saturation": 0.8,
+  "editor.wordWrap": "on",
+  "workbench.iconTheme": "helium-icon-theme"
+}
