@@ -116,7 +116,7 @@
  '(fci-rule-color "#dedede")
  '(line-spacing 0.2)
  '(package-selected-packages
-   '(poet-theme rustic flycheck-rust cargo lsp-mode multiple-cursors)))
+   '(magit poet-theme rustic flycheck-rust cargo lsp-mode multiple-cursors)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
