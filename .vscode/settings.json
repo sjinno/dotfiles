@@ -149,8 +149,7 @@
   },
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "editor.fontSize": 12,
-  "editor.fontFamily": "'Liberation Mono'",
+  "editor.fontFamily": "'Source Code Pro', 'Liberation Mono'",
   "debug.allowBreakpointsEverywhere": true,
   "C_Cpp.updateChannel": "Insiders",
   "rust-analyzer.inlayHints.maxLength": 6,
@@ -166,10 +165,8 @@
     "*.ipynb": "jupyter-notebook"
   },
   "workbench.colorTheme": "GitHub Plus",
-  // "prettier.singleQuote": true,
   "html.format.templating": true,
   "markdown.extension.toc.unorderedList.marker": "- [ ]",
-  // "prettier.tabWidth": 4,
   "[python]": {
     "gitlens.codeLens.symbolScopes": [
       "!Module"
@@ -241,5 +238,6 @@
     "plaintext": false,
     "markdown": false
   },
-  "editor.lineNumbers": "relative"
+  "files.encoding": "utf8",
+  "editor.fontSize": 12.5
 }
