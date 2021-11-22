@@ -201,5 +201,13 @@
     {
         "key": "ctrl+shift+0",
         "command": "editor.action.fontZoomReset"
+    },
+    {
+        "key": "ctrl+shift+t",
+        "command": "-workbench.action.reopenClosedEditor"
+    },
+    {
+        "key": "ctrl+shift+t",
+        "command": "editor.action.inspectTMScopes"
     }
 ]
