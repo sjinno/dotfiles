@@ -4,6 +4,9 @@
         "editor.wordBasedSuggestions": false,
         "gitlens.codeLens.symbolScopes": ["!Module"]
     },
+    "[rust]": {
+        "editor.defaultFormatter": "matklad.rust-analyzer"
+    },
     "debug.allowBreakpointsEverywhere": true,
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -26,8 +29,8 @@
             //     "foreground": "#1d4ed8"
             // },
             "comment": "#52525b",
-            // "enum": "#b45309",
-            // "enumMember": "#b45309",
+            "enum": "#92400e",
+            "enumMember": "#92400e",
             // "interface": {
             // "fontStyle": "italic"
             // "foreground": "#047857"
@@ -37,11 +40,11 @@
                 // "fontStyle": "bold",
                 "foreground": "#4338ca"
             },
-            "string": "#2d6a4f"
-            // "typeAlias": {
-            // "fontStyle": "italic bold",
-            // "foreground": "#d97706"
-            // }
+            "string": "#047857",
+            "typeAlias": {
+                "fontStyle": "italic bold",
+                "foreground": "#92400e"
+            }
         }
     },
     "editor.suggestSelection": "first",
