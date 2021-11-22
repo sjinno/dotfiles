@@ -164,7 +164,6 @@
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
   },
-  "workbench.colorTheme": "GitHub Plus",
   "html.format.templating": true,
   "markdown.extension.toc.unorderedList.marker": "- [ ]",
   "[python]": {
@@ -239,5 +238,9 @@
     "markdown": false
   },
   "files.encoding": "utf8",
+  "workbench.colorTheme": "GitHub Plus",
+  "editor.semanticTokenColorCustomizations": {
+    "enabled": true
+  },
   "editor.fontSize": 12.5
 }
