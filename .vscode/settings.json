@@ -37,7 +37,7 @@
             // },
             // "keyword": "#dc2626",
             "macro": {
-                // "fontStyle": "bold",
+                "fontStyle": "bold",
                 "foreground": "#4338ca"
             },
             "string": "#047857",
@@ -48,21 +48,21 @@
         }
     },
     "editor.suggestSelection": "first",
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "name": "Markdown",
-                "scope": [
-                    "meta.paragraph.markdown",
-                    "string.other.link.title.markdown",
-                    "markup.underline.link.markdown"
-                ],
-                "settings": {
-                    "fontStyle": "italic"
-                }
-            }
-        ]
-    },
+    // "editor.tokenColorCustomizations": {
+    //     "textMateRules": [
+    //         {
+    //             "name": "Markdown",
+    //             "scope": [
+    //                 "meta.paragraph.markdown",
+    //                 "string.other.link.title.markdown",
+    //                 "markup.underline.link.markdown"
+    //             ],
+    //             "settings": {
+    //                 "fontStyle": "italic"
+    //             }
+    //         }
+    //     ]
+    // },
     "editor.wordWrap": "on",
     "files.associations": {
         "*.css": "scss",
@@ -71,12 +71,14 @@
     },
     "files.encoding": "utf8",
     "git.autofetch": true,
+    "githd.blameView.enabled": false,
     "github.copilot.enable": {
         "*": false,
         "markdown": false,
         "plaintext": false,
         "yaml": false
     },
+    "gitlens.currentLine.enabled": false,
     "hediet.vscode-drawio.local-storage": {
         ".drawio-config": {
             "autosave": true,

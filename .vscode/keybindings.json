@@ -99,7 +99,7 @@
     },
     {
         "command": "workbench.action.toggleSidebarVisibility",
-        "key": "ctrl+b"
+        "key": "alt+space"
     },
     {
         "command": "-workbench.action.toggleSidebarVisibility",
@@ -209,5 +209,14 @@
     {
         "command": "editor.action.inspectTMScopes",
         "key": "ctrl+shift+t"
+    },
+    {
+        "key": "ctrl+alt+space",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+alt+space",
+        "command": "-toggleSuggestionFocus",
+        "when": "suggestWidgetVisible && textInputFocus"
     }
 ]

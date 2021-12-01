@@ -1,0 +1,7 @@
+{
+    "Hello, world!": {
+        "prefix": "hw",
+        "body": ["fn main() {", "    println!(\"Hello, world!\");", "}"],
+        "description": "Initialize a function that prints out \"Hello, world!\""
+    }
+}
