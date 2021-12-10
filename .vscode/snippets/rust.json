@@ -3,5 +3,15 @@
         "prefix": "hw",
         "body": ["fn main() {", "    println!(\"Hello, world!\");", "}"],
         "description": "Initialize a function that prints out \"Hello, world!\""
+    },
+    "eprintln!": {
+        "prefix": "ep",
+        "body": ["eprintln!(\"SHOHEI@ ${1:var}: {}\", ${1:var});"],
+        "description": "Shortcut for eprintln!"
+    },
+    "println!": {
+        "prefix": "pl",
+        "body": ["println!(\"${1:var}: {}\", ${1:var});"],
+        "description": "Shortcut for println!"
     }
 }

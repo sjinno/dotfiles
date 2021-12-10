@@ -16,5 +16,12 @@
             ""
         ],
         "description": "Function component template"
+    },
+    "Debug": {
+        "prefix": "dbg",
+        "body": [
+            "console.log('SHOHEI@ ### ${1:var}', ${1:var});"
+        ],
+        "description": "Handy debugging snippet for my personal use"
     }
 }

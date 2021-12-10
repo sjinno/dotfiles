@@ -19,7 +19,7 @@
 (tool-bar-mode 0)
 (display-line-numbers-mode 1)
 ;; (setq display-line-numbers 'relative)
-(set-frame-font "Source Code Pro 11" nil t)
+(set-frame-font "Source Code Pro 10" nil t)
 ;; (add-to-list 'default-frame-alist '(foreground-color . "#E0DFDB"))
 ;; (set-background-color "#F3F0DF")
 ;; END =============

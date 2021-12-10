@@ -20,7 +20,7 @@
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "all",
     "editor.scrollbar.horizontalScrollbarSize": 0,
-    "editor.scrollbar.verticalScrollbarSize": 6,
+    "editor.scrollbar.verticalScrollbarSize": 10,
     "editor.semanticTokenColorCustomizations": {
         "enabled": true,
         "rules": {
