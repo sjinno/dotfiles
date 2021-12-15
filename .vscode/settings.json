@@ -127,7 +127,6 @@
         "default": "right",
         "jupyter-notebook": "left"
     },
-    "prettier.configPath": ".prettierrc",
     "prettier.semi": true,
     "prettier.singleQuote": true,
     "prettier.tabWidth": 4,
