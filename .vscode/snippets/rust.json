@@ -6,7 +6,7 @@
     },
     "eprintln!": {
         "prefix": "ep",
-        "body": ["eprintln!(\"SHOHEI@ ${1:var}: {}\", ${1:var});"],
+        "body": ["eprintln!(\"SHOHEI@$TM_FILENAME ### ${1:var}: {}\", ${1:var});"],
         "description": "Shortcut for eprintln!"
     },
     "println!": {
