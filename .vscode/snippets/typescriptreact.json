@@ -20,7 +20,7 @@
     "Debug": {
         "prefix": "dbg",
         "body": [
-            "console.log('SHOHEI@$TM_FILENAME ### ${1:var}', ${1:var});"
+            "console.log('SHOHEI@$TM_FILENAME:$TM_LINE_NUMBER ##### VAR: \"${1:var}\" =', ${1:var});"
         ],
         "description": "Handy debugging snippet for my personal use"
     }
