@@ -1,40 +1,20 @@
 ;;; package --- Summary
 ;;; Commentary:
-;; Comment/uncomment this line to enable MELPA Stable if desired.  See `package-archive-priorities`
-;; and `package-pinned-packages`.  Most users will not need or want to do this.
-;;(add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 ;;; Code:
-(package-initialize)
-(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
-
-(setq package-archives '(("melpa" . "http://melpa.org/packages/")
-                         ("gnu" . "http://elpa.gnu.org/packages/")))
+(require 'package)
+(add-to-list 'package-archives
+             '("melpa" . "https://melpa.org/packages/") t)
 
 
-
-
-;; GENERAL =========
+;; ###GENERAL
 (desktop-save-mode 0)
 (menu-bar-mode 0)
 (tool-bar-mode 0)
-(display-line-numbers-mode 1)
-;; (setq display-line-numbers 'relative)
-(set-frame-font "Source Code Pro 10" nil t)
-;; (add-to-list 'default-frame-alist '(foreground-color . "#E0DFDB"))
-;; (set-background-color "#F3F0DF")
-;; END =============
+(set-frame-font "Source Code Pro-10" t t)
+;; ###
 
 
-
-
-;; LATEX =========
-;; (latex-preview-pane-enable)
-;; END ===========
-
-
-
-
-;; RUST =========
+;; ###RUST
 ;; Indentation
 ;; The Rust style guide recommends spaces rather than tabs for indentation; to follow the recommendation add this to your init.el, which forces indentation to always use spaces.
 (add-hook 'rust-mode-hook
@@ -55,6 +35,7 @@
 ;; disable rustfmt... :) comment this out to turn it back on
 ;;(setq rust-format-buffer nil)
 ;;(setq rust-format-on-save t)
+;; ###
 
 
 ;; Clippy
@@ -116,7 +97,7 @@
  '(fci-rule-color "#dedede")
  '(line-spacing 0.2)
  '(package-selected-packages
-   '(magit poet-theme rustic flycheck-rust cargo lsp-mode multiple-cursors)))
+   '(typescript-mode helm magit rustic flycheck-rust cargo lsp-mode multiple-cursors)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
