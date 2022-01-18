@@ -13,7 +13,7 @@
     },
     "println!": {
         "prefix": "pl",
-        "body": ["println!(\"${1:var}: {}\", ${1:var});"],
+        "body": ["println!(\"SHOHEI@$TM_FILENAME:$TM_LINE_NUMBER ##### ${1:msg}\");"],
         "description": "Shortcut for println!"
     }
 }

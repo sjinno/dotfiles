@@ -23,5 +23,12 @@
             "console.log('SHOHEI@$TM_FILENAME:$TM_LINE_NUMBER ##### VAR: \"${1:var}\" =', ${1:var});"
         ],
         "description": "Handy debugging snippet for my personal use"
+    },
+    "Clean debug": {
+        "prefix": "lg",
+        "body": [
+            "console.log('SHOHEI@$TM_FILENAME:$TM_LINE_NUMBER ##### ${1:msg}');"
+        ],
+        "description": "Handy debugging snippet for my personal use"
     }
 }
