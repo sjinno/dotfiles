@@ -4,6 +4,9 @@
         "editor.wordBasedSuggestions": false,
         "gitlens.codeLens.symbolScopes": ["!Module"]
     },
+    "[svelte]": {
+        "editor.defaultFormatter": "svelte.svelte-vscode"
+    },
     "[rust]": {
         "editor.defaultFormatter": "matklad.rust-analyzer"
     },
@@ -13,7 +16,7 @@
     "editor.fontFamily": "'Source Code Pro'",
     "editor.fontLigatures": "'ss01",
     "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "editor.inlineSuggest.enabled": true,
     // "editor.lineHeight": 18,
     "editor.minimap.enabled": false,
@@ -164,4 +167,5 @@
     "editor.fontSize": 12.5,
     "workbench.colorTheme": "GitHub Plus",
     "debug.disassemblyView.showSourceCode": false,
+    "svelte.enable-ts-plugin": true,
 }
